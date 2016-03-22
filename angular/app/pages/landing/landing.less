@@ -9,7 +9,7 @@ body{
 }
 
 .Landing-cover{
-    background-image: url('/img/cover.jpg');
+    background-image: url('/img/cover1.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -135,12 +135,13 @@ body{
 
 .Landing-features{
     text-align: center;
-    margin: 60px 10px;
+    /*margin: 60px 10px;*/
+    margin: 60px;
 }
 
 .Landing-featuresMainTitle{
     font-weight: 300;
-    letter-spacing: -1px;
+    /*letter-spacing: -1px;*/
     margin-bottom: 15px;
     color: @navy;
 }
@@ -153,8 +154,8 @@ body{
 }
 
 .Landing-featuresEntry{
-    width: 176px;
-    height: 176px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin: 40px auto 20px;
 }
@@ -176,26 +177,39 @@ body{
     font-weight: 300;
 }
 
-.Landing-featuresEntry--restful{
+.Landing-featuresEntry--depozitare{
     background-color: @brand;
 }
 
-.Landing-featuresEntry--jwt{
+.Landing-featuresEntry--servicii{
     background-color: #EF704D;
 }
 
-.Landing-featuresEntry--generators{
-    background-color: #25C0CC;
+.Landing-featuresEntry--certificare{
+    /*background-color: #25C0CC;*/
+    background-color: #9800CA;
 }
 
-.Landing-featuresEntry--restful md-icon{
-    width: 100px;
+.Landing-featuresEntry--facilitati{
+    background-color: #25CC60;
 }
-.Landing-featuresEntry--jwt md-icon{
+
+md-icon.md-default-theme, md-icon {
+    color: rgba(255,255,255,0.8);
+}
+
+.Landing-featuresEntry--depozitare md-icon{
+    width: 80px;
+}
+.Landing-featuresEntry--servicii md-icon{
     width: 80px;
 }
 
-.Landing-featuresEntry--generators md-icon{
+.Landing-featuresEntry--certificare md-icon{
+    width: 80px;
+}
+
+.Landing-featuresEntry--facilitati md-icon{
     width: 80px;
 }
 
